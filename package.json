@@ -1,0 +1,19 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:x86": ".\\runtime\\x86\\node.exe index.js",
+    "start:x64": ".\\runtime\\x64\\node.exe index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.4.0",
+    "dir-compare": "^1.7.2",
+    "live-server": "^1.2.1",
+    "ncp": "^2.0.0",
+    "readline-sync": "^1.4.9"
+  }
+}
